@@ -1,9 +1,9 @@
 /*
  * settings.gradle.kts
- * Spek-1.1.5
+ * KotlinTemplate
  */
 
-rootProject.name = "Spek-1.1.5"
+rootProject.name = "KotlinTemplate"
 
 // Workaround to make the JUnit Platform Gradle Plugin available using the `plugins` DSL
 // See: https://github.com/junit-team/junit5/issues/768#issuecomment-330078905

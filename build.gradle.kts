@@ -1,6 +1,6 @@
 /*
  * build.gradld.kts
- * Spek-1.1.5
+ * KotlinTemplate
  */
 
 import org.gradle.api.JavaVersion.*
