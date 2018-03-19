@@ -1,3 +1,6 @@
+# 🛫 Kotlin Template
+
+Starter project with [Gradle](https://gradle.org/), [Kotlin](https://kotlinlang.org/) and [Spek](http://spekframework.org/) pre-configured.
 
 # 📄 License
 
