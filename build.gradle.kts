@@ -11,11 +11,11 @@ import org.junit.platform.engine.discovery.ClassNameFilter.includeClassNamePatte
 
 plugins {
     id("org.jetbrains.kotlin.jvm") version "1.2.30"
-    id("org.junit.platform.gradle.plugin") version "1.0.0"
+    id("org.junit.platform.gradle.plugin") version "1.1.0"
 }
 
 val jvmTarget = JavaVersion.VERSION_1_8.toString()
-val spekVersion          = "1.1.5"
+val spekVersion = "1.1.5"
 
 // This is necessary to make the plugin version accessible in other places
 // https://stackoverflow.com/questions/46053522/how-to-get-ext-variables-into-plugins-block-in-build-gradle-kts/47507441#47507441
