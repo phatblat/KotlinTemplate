@@ -18,7 +18,7 @@ import org.junit.platform.engine.discovery.ClassNameFilter.includeClassNamePatte
 /* -------------------------------------------------------------------------- */
 
 plugins {
-    id("org.jetbrains.kotlin.jvm") version "1.2.30"
+    id("org.jetbrains.kotlin.jvm") version "1.2.31"
     id("org.junit.platform.gradle.plugin") version "1.1.0"
 }
 
