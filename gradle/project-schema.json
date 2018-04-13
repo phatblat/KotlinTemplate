@@ -2,7 +2,8 @@
     ":": {
         "conventions": {
             "base": "org.gradle.api.plugins.BasePluginConvention",
-            "java": "org.gradle.api.plugins.JavaPluginConvention"
+            "java": "org.gradle.api.plugins.JavaPluginConvention",
+            "maven": "org.gradle.api.plugins.MavenPluginConvention"
         },
         "configurations": [
             "annotationProcessor",
@@ -13,6 +14,8 @@
             "compileOnly",
             "default",
             "implementation",
+            "jacocoAgent",
+            "jacocoAnt",
             "junitPlatform",
             "kapt",
             "kaptTest",
@@ -36,7 +39,14 @@
             "kapt": "org.jetbrains.kotlin.gradle.plugin.KaptExtension",
             "defaultArtifacts": "org.gradle.api.internal.plugins.DefaultArtifactPublicationSet",
             "reporting": "org.gradle.api.reporting.ReportingExtension",
-            "junitPlatform": "org.junit.platform.gradle.plugin.JUnitPlatformExtension"
+            "pluginBundle": "com.gradle.publish.PluginBundleExtension",
+            "bintray": "com.jfrog.bintray.gradle.BintrayExtension",
+            "profiles": "org.gradle.api.NamedDomainObjectContainer<io.gitlab.arturbosch.detekt.extensions.ProfileExtension>",
+            "detekt": "io.gitlab.arturbosch.detekt.extensions.DetektExtension",
+            "junitPlatform": "org.junit.platform.gradle.plugin.JUnitPlatformExtension",
+            "jacoco": "org.gradle.testing.jacoco.plugins.JacocoPluginExtension",
+            "gradlePlugin": "org.gradle.plugin.devel.GradlePluginDevelopmentExtension",
+            "publishing": "org.gradle.api.publish.PublishingExtension"
         }
     }
 }
