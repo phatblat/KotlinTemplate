@@ -2,6 +2,7 @@
 
 [ ![Tube](https://jenkins.log-g.co/buildStatus/icon?job=phatblat/KotlinTemplate/master) ](https://jenkins.log-g.co/job/phatblat/job/KotlinTemplate/job/master/)
 [ ![Kotlin](https://img.shields.io/badge/language-kotlin%201.2-orange.svg) ](https://kotlinlang.org/)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Starter project with [Gradle](https://gradle.org/), [Kotlin](https://kotlinlang.org/) and [Spek](http://spekframework.org/) pre-configured.
 
