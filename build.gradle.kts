@@ -27,12 +27,13 @@ import org.junit.platform.engine.discovery.ClassNameFilter.includeClassNamePatte
 plugins {
     // Gradle built-in
     jacoco
+    java
     `java-gradle-plugin`
     maven // only applied to make bintray happy
     `maven-publish`
 
     // Gradle plugin portal - https://plugins.gradle.org/
-    kotlin("jvm") version "1.2.31"
+    kotlin("jvm") version "1.2.40"
     id("at.phatbl.clamp") version "1.0.0"
     id("at.phatbl.shellexec") version "1.1.3"
     id("com.gradle.plugin-publish") version "0.9.10"
