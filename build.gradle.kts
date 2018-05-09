@@ -47,21 +47,21 @@ plugins {
 // 📋 Properties
 /* -------------------------------------------------------------------------- */
 
-val artifactName by project
+val artifactName: String by project
 val javaPackage = "$group.$artifactName"
-val pluginClass by project
-val projectUrl by project
-val tags by project
+val pluginClass: String by project
+val projectUrl: String by project
+val tags: String by project
 val labels = "$tags".split(",")
-val license by project
+val license: String by project
 
 val jvmTarget = JavaVersion.VERSION_1_8
 
-val commonsExecVersion by project
-val spekVersion by project
-val detektVersion by project
-val junitPlatformVersion by project
-val jacocoVersion by project
+val commonsExecVersion: String by project
+val spekVersion: String by project
+val detektVersion: String by project
+val junitPlatformVersion: String by project
+val jacocoVersion: String by project
 
 /* -------------------------------------------------------------------------- */
 // 👪 Dependencies
