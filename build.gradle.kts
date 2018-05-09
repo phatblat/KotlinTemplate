@@ -27,6 +27,7 @@ import org.junit.platform.engine.discovery.ClassNameFilter.includeClassNamePatte
 plugins {
     // Gradle built-in
     jacoco
+    java
     `java-gradle-plugin`
     maven // only applied to make bintray happy
     `maven-publish`
