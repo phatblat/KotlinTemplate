@@ -32,7 +32,7 @@ plugins {
     `maven-publish`
 
     // Gradle plugin portal - https://plugins.gradle.org/
-    kotlin("jvm") version "1.2.50"
+    kotlin("jvm") version "1.2.51"
     id("at.phatbl.clamp") version "1.1.0"
     id("at.phatbl.shellexec") version "1.1.3"
     id("com.gradle.plugin-publish") version "0.9.10"
