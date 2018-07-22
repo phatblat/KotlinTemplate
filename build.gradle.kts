@@ -16,7 +16,6 @@ import org.gradle.kotlin.dsl.dependencies
 import org.gradle.kotlin.dsl.kotlin
 import org.gradle.kotlin.dsl.version
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
-import org.jetbrains.kotlin.preprocessor.mkdirsOrFail
 import org.junit.platform.console.options.Details
 import org.junit.platform.engine.discovery.ClassNameFilter.includeClassNamePatterns
 
@@ -32,7 +31,7 @@ plugins {
     `maven-publish`
 
     // Gradle plugin portal - https://plugins.gradle.org/
-    kotlin("jvm") version "1.2.41"
+    kotlin("jvm") version "1.2.51"
     id("at.phatbl.clamp") version "1.1.0"
     id("at.phatbl.shellexec") version "1.1.3"
     id("com.gradle.plugin-publish") version "0.9.10"
@@ -103,7 +102,7 @@ val updateVersionFile by tasks.creating {
     group = "Build"
     doLast {
         val resources = "src/main/resources"
-        project.file(resources).mkdirsOrFail()
+        project.file(resources).mkdirs()
         val versionFile = project.file("$resources/VERSION.txt")
         versionFile.createNewFile()
         versionFile.writeText(version.toString())
